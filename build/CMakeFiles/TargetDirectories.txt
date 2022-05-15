@@ -1,0 +1,17 @@
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/install/strip.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/install/local.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/edit_cache.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/translations.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/install.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/list_install_components.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/rebuild_cache.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/cutefish-terminal.dir
+/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/cutefish-terminal_autogen.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/install/strip.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/install/local.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/install.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/list_install_components.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/rebuild_cache.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/edit_cache.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir
+/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir

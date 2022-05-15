@@ -1,0 +1,347 @@
+{
+	"BUILD_DIR" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/cutefishqmltermwidget_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/cuteclone/terminal/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/terminal/qmltermwidget",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/tokyo/clone/cuteclone/terminal/qmltermwidget/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/terminal",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/BlockArray.h",
+			"MU",
+			"ZJOKMXDKB7/moc_BlockArray.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Character.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Character.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/CharacterColor.h",
+			"MU",
+			"ZJOKMXDKB7/moc_CharacterColor.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ColorScheme.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ColorScheme.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ColorTables.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ColorTables.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/DefaultTranslatorText.h",
+			"MU",
+			"ZJOKMXDKB7/moc_DefaultTranslatorText.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Emulation.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Emulation.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ExtendedDefaultTranslator.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ExtendedDefaultTranslator.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Filter.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Filter.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/History.h",
+			"MU",
+			"ZJOKMXDKB7/moc_History.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/HistorySearch.h",
+			"MU",
+			"ZJOKMXDKB7/moc_HistorySearch.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/KeyboardTranslator.h",
+			"MU",
+			"ZJOKMXDKB7/moc_KeyboardTranslator.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/LineFont.h",
+			"MU",
+			"ZJOKMXDKB7/moc_LineFont.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ProcessInfo.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ProcessInfo.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Pty.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Pty.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Screen.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Screen.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ScreenWindow.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ScreenWindow.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Session.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Session.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ShellCommand.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ShellCommand.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/TerminalCharacterDecoder.h",
+			"MU",
+			"ZJOKMXDKB7/moc_TerminalCharacterDecoder.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/TerminalDisplay.h",
+			"MU",
+			"ZJOKMXDKB7/moc_TerminalDisplay.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Vt102Emulation.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Vt102Emulation.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/konsole_wcwidth.h",
+			"MU",
+			"ZJOKMXDKB7/moc_konsole_wcwidth.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kprocess.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kprocess.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kpty.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kpty.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kpty_p.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kpty_p.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kptydevice.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kptydevice.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kptyprocess.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kptyprocess.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/mac-vkcode.h",
+			"MU",
+			"ZJOKMXDKB7/moc_mac-vkcode.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/tools.h",
+			"MU",
+			"ZJOKMXDKB7/moc_tools.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/ksession.h",
+			"MU",
+			"UVLADIE3JM/moc_ksession.cpp"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/qmltermwidget_plugin.h",
+			"MU",
+			"UVLADIE3JM/moc_qmltermwidget_plugin.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/cutefishqmltermwidget_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/cutefishqmltermwidget_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_POSIX_OPENPT",
+		"HAVE_SYS_TIME_H",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"cutefishqmltermwidget_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget",
+		"/home/tokyo/clone/cuteclone/terminal/qmltermwidget",
+		"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib",
+		"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQmlModels",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/cutefishqmltermwidget_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/BlockArray.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ColorScheme.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Emulation.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Filter.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/History.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/HistorySearch.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/KeyboardTranslator.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ProcessInfo.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Pty.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Screen.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ScreenWindow.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Session.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/ShellCommand.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/TerminalCharacterDecoder.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/TerminalDisplay.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/Vt102Emulation.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/konsole_wcwidth.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kprocess.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kpty.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kptydevice.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kptyprocess.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/tools.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/ksession.cpp",
+			"MU"
+		],
+		[
+			"/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/qmltermwidget_plugin.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
