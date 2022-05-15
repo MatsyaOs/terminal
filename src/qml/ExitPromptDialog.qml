@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -21,13 +21,13 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-FishUI.Window {
+MatsyaUI.Window {
     id: control
 
-    property var contentWidth: _mainLayout.implicitWidth + FishUI.Units.largeSpacing * 2
-    property var contentHeight: _mainLayout.implicitHeight + header.height + FishUI.Units.largeSpacing * 2
+    property var contentWidth: _mainLayout.implicitWidth + MatsyaUI.Units.largeSpacing * 2
+    property var contentHeight: _mainLayout.implicitHeight + header.height + MatsyaUI.Units.largeSpacing * 2
 
     flags: Qt.WindowStaysOnTopHint | Qt.Dialog | Qt.FramelessWindowHint
     modality: Qt.WindowModal
@@ -41,22 +41,22 @@ FishUI.Window {
     maximumHeight: contentHeight
     minimizeButtonVisible: false
 
-    background.color: FishUI.Theme.secondBackgroundColor
+    background.color: MatsyaUI.Theme.secondBackgroundColor
 
     signal okBtnClicked
 
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        spacing: FishUI.Units.largeSpacing
-        anchors.margins: FishUI.Units.largeSpacing
+        spacing: MatsyaUI.Units.largeSpacing
+        anchors.margins: MatsyaUI.Units.largeSpacing
 
         Label {
             text: qsTr("Process is running, are you sure you want to quit?")
         }
 
         RowLayout {
-            spacing: FishUI.Units.largeSpacing
+            spacing: MatsyaUI.Units.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

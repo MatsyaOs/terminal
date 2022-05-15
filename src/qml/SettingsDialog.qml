@@ -2,7 +2,7 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Window {
     id: control
@@ -10,12 +10,12 @@ Window {
     title: qsTr("Settings")
 
     width: 400
-    height: _mainLayout.implicitHeight + FishUI.Units.largeSpacing * 4
+    height: _mainLayout.implicitHeight + MatsyaUI.Units.largeSpacing * 4
 
-    maximumHeight: _mainLayout.implicitHeight + FishUI.Units.largeSpacing * 4
+    maximumHeight: _mainLayout.implicitHeight + MatsyaUI.Units.largeSpacing * 4
     maximumWidth: 400
     minimumWidth: 400
-    minimumHeight: _mainLayout.implicitHeight + FishUI.Units.largeSpacing * 4
+    minimumHeight: _mainLayout.implicitHeight + MatsyaUI.Units.largeSpacing * 4
 
     flags: Qt.Dialog
     modality: Qt.WindowModal
@@ -24,16 +24,16 @@ Window {
 
     Rectangle {
         anchors.fill: parent
-        color: FishUI.Theme.secondBackgroundColor
+        color: MatsyaUI.Theme.secondBackgroundColor
     }
 
     GridLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: FishUI.Units.largeSpacing
+        anchors.margins: MatsyaUI.Units.largeSpacing
         columns: 2
-        columnSpacing: FishUI.Units.largeSpacing * 2
-        rowSpacing: FishUI.Units.largeSpacing * 2
+        columnSpacing: MatsyaUI.Units.largeSpacing * 2
+        rowSpacing: MatsyaUI.Units.largeSpacing * 2
 
         Label {
             text: qsTr("Font")

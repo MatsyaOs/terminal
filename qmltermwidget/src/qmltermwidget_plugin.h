@@ -6,12 +6,11 @@
 class QmltermwidgetPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "Cutefish.TermWidget")
-    
+    Q_PLUGIN_METADATA(IID "Matsya.TermWidget")
+
 public:
     void registerTypes(const char *uri);
     void initializeEngine(QQmlEngine *engine, const char *uri);
 };
 
 #endif // QMLTERMWIDGET_PLUGIN_H
-

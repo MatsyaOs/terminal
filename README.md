@@ -1,6 +1,6 @@
 # CutefishOS Terminal
 
-A terminal emulator for Cutefish.
+A terminal emulator for Matsya.
 
 ### Third Party Code
 

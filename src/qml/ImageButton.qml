@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -21,7 +21,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -30,10 +30,10 @@ Item {
     height: size
     width: size
 
-    property color hoveredColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 1.5)
-                                                       : Qt.darker(FishUI.Theme.backgroundColor, 1.2)
-    property color pressedColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 1.3)
-                                                       : Qt.darker(FishUI.Theme.backgroundColor, 1.3)
+    property color hoveredColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.5)
+                                                       : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.2)
+    property color pressedColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.3)
+                                                       : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.3)
     property alias source: image.source
     signal clicked()
 

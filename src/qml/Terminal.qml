@@ -23,8 +23,8 @@ import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import QtQuick.Window 2.12
 
-import FishUI 1.0 as FishUI
-import Cutefish.TermWidget 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.TermWidget 1.0
 
 Page {
     id: control
@@ -108,7 +108,7 @@ Page {
     QMLTermWidget {
         id: _terminal
         anchors.fill: parent
-        colorScheme: FishUI.Theme.darkMode ? "Cutefish-Dark" : "Cutefish-Light"
+        colorScheme: MatsyaUI.Theme.darkMode ? "Matsya-Dark" : "Matsya-Light"
         font.family: settings.fontName
         font.pointSize: settings.fontPointSize
         blinkingCursor: settings.blinkingCursor
@@ -186,7 +186,7 @@ Page {
         onTriggered: _terminal.pasteClipboard()
     }
 
-    FishUI.DesktopMenu {
+    MatsyaUI.DesktopMenu {
         id: terminalMenu
 
         MenuItem {
@@ -232,7 +232,7 @@ Page {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        anchors.bottomMargin: FishUI.Units.smallSpacing * 1.5
+        anchors.bottomMargin: MatsyaUI.Units.smallSpacing * 1.5
         hoverEnabled: true
         active: hovered || pressed
         orientation: Qt.Vertical

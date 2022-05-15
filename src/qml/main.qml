@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -23,10 +23,10 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
 
-import Cutefish.TermWidget 1.0
-import FishUI 1.0 as FishUI
+import Matsya.TermWidget 1.0
+import MatsyaUI 1.0 as MatsyaUI
 
-FishUI.Window {
+MatsyaUI.Window {
     id: root
     minimumWidth: 400
     minimumHeight: 300
@@ -34,7 +34,7 @@ FishUI.Window {
     height: settings.height
     title: currentItem && currentItem.terminal ? currentItem.terminal.session.title : ""
 
-    background.color: FishUI.Theme.backgroundColor
+    background.color: MatsyaUI.Theme.backgroundColor
     background.opacity: root.compositing ? settings.opacity : 1
     header.height: 40
 
@@ -62,7 +62,7 @@ FishUI.Window {
         id: settingsDialog
     }
 
-    FishUI.WindowBlur {
+    MatsyaUI.WindowBlur {
         view: root
         geometry: Qt.rect(root.x, root.y, root.width, root.height)
         windowRadius: root.background.radius
@@ -88,22 +88,22 @@ FishUI.Window {
     }
 
     headerItem: Item {
-        FishUI.TabBar {
+        MatsyaUI.TabBar {
             id: _tabbar
             anchors.fill: parent
-            anchors.margins: FishUI.Units.smallSpacing / 2
-            anchors.rightMargin: FishUI.Units.largeSpacing * 4
+            anchors.margins: MatsyaUI.Units.smallSpacing / 2
+            anchors.rightMargin: MatsyaUI.Units.largeSpacing * 4
 
             currentIndex: _tabView.currentIndex
             model: _tabView.count
 
             onNewTabClicked: openNewTab()
 
-            delegate: FishUI.TabButton {
+            delegate: MatsyaUI.TabButton {
                 id: _tabBtn
                 text: _tabView.contentModel.get(index).title
                 Layout.fillHeight: true
-                height: _tabbar.height - FishUI.Units.smallSpacing / 2
+                height: _tabbar.height - MatsyaUI.Units.smallSpacing / 2
                 width: Math.min(_tabbar.width / _tabbar.count,
                                 _tabBtn.contentWidth)
 
@@ -132,7 +132,7 @@ FishUI.Window {
 //                id: _repeater
 //                model: _tabView.count
 
-//                FishUI.TabButton {
+//                MatsyaUI.TabButton {
 //                    id: _tabBtn
 //                    text: _tabView.contentModel.get(index).title
 //                    implicitHeight: parent.height
@@ -169,7 +169,7 @@ FishUI.Window {
     ColumnLayout {
         anchors.fill: parent
 
-        FishUI.TabView {
+        MatsyaUI.TabView {
             id: _tabView
             Layout.fillWidth: true
             Layout.fillHeight: true
