@@ -188,18 +188,18 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/cutefish-terminal_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/cutefish-terminal_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json"
+  "CMakeFiles/matsya-terminal_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/matsya-terminal_autogen.dir/AutoRcc_resources_UVLADIE3JM_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/AutogenInfo.json"
+  "qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/AutogenInfo.json"
   "qmltermwidget/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/translations.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-terminal.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-terminal_autogen.dir/DependInfo.cmake"
-  "qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/DependInfo.cmake"
-  "qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-terminal.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-terminal_autogen.dir/DependInfo.cmake"
+  "qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/DependInfo.cmake"
+  "qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/DependInfo.cmake"
   )

@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/terminal/build/matsya-terminal_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/terminal/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/terminal/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/terminal",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/terminal",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/terminal/build/matsya-terminal_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/SettingsDialog.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/ExitPromptDialog.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/GlobalSettings.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/ImageButton.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/Terminal.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/qml/main.qml",
+		"/home/tokyo/Documents/GitHub/terminal/src/images/light/close.svg",
+		"/home/tokyo/Documents/GitHub/terminal/src/images/light/add.svg",
+		"/home/tokyo/Documents/GitHub/terminal/src/images/dark/close.svg",
+		"/home/tokyo/Documents/GitHub/terminal/src/images/dark/add.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles/matsya-terminal_autogen.dir/AutoRcc_resources_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles/matsya-terminal_autogen.dir/AutoRcc_resources_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/tokyo/Documents/GitHub/terminal/src/resources.qrc",
+	"VERBOSITY" : 0
+}

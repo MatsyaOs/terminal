@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/terminal/qmltermwidget
+# Install script for directory: /home/tokyo/Documents/GitHub/terminal/qmltermwidget
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,74 +43,74 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so")
+  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so"
+         FILE "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget" TYPE MODULE FILES "/home/tokyo/clone/cuteclone/terminal/build/qmltermwidget/libcutefishqmltermwidget.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget" TYPE MODULE FILES "/home/tokyo/Documents/GitHub/terminal/build/qmltermwidget/libmatsyaqmltermwidget.so")
+  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/libcutefishqmltermwidget.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/libmatsyaqmltermwidget.so")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/qmldir")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/qmldir")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget" TYPE FILE FILES "/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/qmldir")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget" TYPE FILE FILES "/home/tokyo/Documents/GitHub/terminal/qmltermwidget/src/qmldir")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/QMLTermScrollbar.qml")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/QMLTermScrollbar.qml")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget" TYPE FILE FILES "/home/tokyo/clone/cuteclone/terminal/qmltermwidget/src/QMLTermScrollbar.qml")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget" TYPE FILE FILES "/home/tokyo/Documents/GitHub/terminal/qmltermwidget/src/QMLTermScrollbar.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/color-schemes")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsyas/TermWidget/color-schemes")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget" TYPE DIRECTORY FILES "/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/color-schemes")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsyas/TermWidget" TYPE DIRECTORY FILES "/home/tokyo/Documents/GitHub/terminal/qmltermwidget/lib/color-schemes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget/kb-layouts")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget/kb-layouts")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Cutefish/TermWidget" TYPE DIRECTORY FILES "/home/tokyo/clone/cuteclone/terminal/qmltermwidget/lib/kb-layouts")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/Matsya/TermWidget" TYPE DIRECTORY FILES "/home/tokyo/Documents/GitHub/terminal/qmltermwidget/lib/kb-layouts")
 endif()
 

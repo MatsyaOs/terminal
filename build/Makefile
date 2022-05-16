@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/terminal
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/terminal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/terminal/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/terminal/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,17 +98,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target install
 install: preinstall
@@ -143,11 +132,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/terminal/build/CMakeFiles /home/tokyo/clone/cuteclone/terminal/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/terminal/build/CMakeFiles /home/tokyo/Documents/GitHub/terminal/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/terminal/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/terminal/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,110 +189,110 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-terminal
+# Target rules for targets named matsya-terminal
 
 # Build rule for target.
-cutefish-terminal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-terminal
-.PHONY : cutefish-terminal
+matsya-terminal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-terminal
+.PHONY : matsya-terminal
 
 # fast build rule for target.
-cutefish-terminal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/build
-.PHONY : cutefish-terminal/fast
+matsya-terminal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/build
+.PHONY : matsya-terminal/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-terminal_autogen
+# Target rules for targets named matsya-terminal_autogen
 
 # Build rule for target.
-cutefish-terminal_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-terminal_autogen
-.PHONY : cutefish-terminal_autogen
+matsya-terminal_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-terminal_autogen
+.PHONY : matsya-terminal_autogen
 
 # fast build rule for target.
-cutefish-terminal_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal_autogen.dir/build.make CMakeFiles/cutefish-terminal_autogen.dir/build
-.PHONY : cutefish-terminal_autogen/fast
+matsya-terminal_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal_autogen.dir/build.make CMakeFiles/matsya-terminal_autogen.dir/build
+.PHONY : matsya-terminal_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefishqmltermwidget
+# Target rules for targets named matsyaqmltermwidget
 
 # Build rule for target.
-cutefishqmltermwidget: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefishqmltermwidget
-.PHONY : cutefishqmltermwidget
+matsyaqmltermwidget: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsyaqmltermwidget
+.PHONY : matsyaqmltermwidget
 
 # fast build rule for target.
-cutefishqmltermwidget/fast:
-	$(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build
-.PHONY : cutefishqmltermwidget/fast
+matsyaqmltermwidget/fast:
+	$(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build
+.PHONY : matsyaqmltermwidget/fast
 
 #=============================================================================
-# Target rules for targets named cutefishqmltermwidget_autogen
+# Target rules for targets named matsyaqmltermwidget_autogen
 
 # Build rule for target.
-cutefishqmltermwidget_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefishqmltermwidget_autogen
-.PHONY : cutefishqmltermwidget_autogen
+matsyaqmltermwidget_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsyaqmltermwidget_autogen
+.PHONY : matsyaqmltermwidget_autogen
 
 # fast build rule for target.
-cutefishqmltermwidget_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/build
-.PHONY : cutefishqmltermwidget_autogen/fast
+matsyaqmltermwidget_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/build
+.PHONY : matsyaqmltermwidget_autogen/fast
 
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.o: cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.o: matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
 
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.o
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.o
 
 # target to build an object file
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.o
 
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.i: cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.i: matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
 
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.i
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.i
 
 # target to preprocess a source file
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.i
 
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.s: cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.s: matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
 
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.s
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.s
 
 # target to generate assembly for a file
-cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
-.PHONY : cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
+matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
+.PHONY : matsya-terminal_autogen/UVLADIE3JM/qrc_resources.cpp.s
 
-cutefish-terminal_autogen/mocs_compilation.o: cutefish-terminal_autogen/mocs_compilation.cpp.o
+matsya-terminal_autogen/mocs_compilation.o: matsya-terminal_autogen/mocs_compilation.cpp.o
 
-.PHONY : cutefish-terminal_autogen/mocs_compilation.o
+.PHONY : matsya-terminal_autogen/mocs_compilation.o
 
 # target to build an object file
-cutefish-terminal_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-terminal_autogen/mocs_compilation.cpp.o
+matsya-terminal_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-terminal_autogen/mocs_compilation.cpp.o
 
-cutefish-terminal_autogen/mocs_compilation.i: cutefish-terminal_autogen/mocs_compilation.cpp.i
+matsya-terminal_autogen/mocs_compilation.i: matsya-terminal_autogen/mocs_compilation.cpp.i
 
-.PHONY : cutefish-terminal_autogen/mocs_compilation.i
+.PHONY : matsya-terminal_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-cutefish-terminal_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-terminal_autogen/mocs_compilation.cpp.i
+matsya-terminal_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-terminal_autogen/mocs_compilation.cpp.i
 
-cutefish-terminal_autogen/mocs_compilation.s: cutefish-terminal_autogen/mocs_compilation.cpp.s
+matsya-terminal_autogen/mocs_compilation.s: matsya-terminal_autogen/mocs_compilation.cpp.s
 
-.PHONY : cutefish-terminal_autogen/mocs_compilation.s
+.PHONY : matsya-terminal_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-cutefish-terminal_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/cutefish-terminal_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-terminal_autogen/mocs_compilation.cpp.s
+matsya-terminal_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/matsya-terminal_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-terminal_autogen/mocs_compilation.cpp.s
 
 src/fonts.o: src/fonts.cpp.o
 
@@ -300,7 +300,7 @@ src/fonts.o: src/fonts.cpp.o
 
 # target to build an object file
 src/fonts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/fonts.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/fonts.cpp.o
 .PHONY : src/fonts.cpp.o
 
 src/fonts.i: src/fonts.cpp.i
@@ -309,7 +309,7 @@ src/fonts.i: src/fonts.cpp.i
 
 # target to preprocess a source file
 src/fonts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/fonts.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/fonts.cpp.i
 .PHONY : src/fonts.cpp.i
 
 src/fonts.s: src/fonts.cpp.s
@@ -318,7 +318,7 @@ src/fonts.s: src/fonts.cpp.s
 
 # target to generate assembly for a file
 src/fonts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/fonts.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/fonts.cpp.s
 .PHONY : src/fonts.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -327,7 +327,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -336,7 +336,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -345,7 +345,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/processhelper.o: src/processhelper.cpp.o
@@ -354,7 +354,7 @@ src/processhelper.o: src/processhelper.cpp.o
 
 # target to build an object file
 src/processhelper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/processhelper.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/processhelper.cpp.o
 .PHONY : src/processhelper.cpp.o
 
 src/processhelper.i: src/processhelper.cpp.i
@@ -363,7 +363,7 @@ src/processhelper.i: src/processhelper.cpp.i
 
 # target to preprocess a source file
 src/processhelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/processhelper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/processhelper.cpp.i
 .PHONY : src/processhelper.cpp.i
 
 src/processhelper.s: src/processhelper.cpp.s
@@ -372,7 +372,7 @@ src/processhelper.s: src/processhelper.cpp.s
 
 # target to generate assembly for a file
 src/processhelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/processhelper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/processhelper.cpp.s
 .PHONY : src/processhelper.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -381,7 +381,7 @@ src/utils.o: src/utils.cpp.o
 
 # target to build an object file
 src/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -390,7 +390,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -399,7 +399,7 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-terminal.dir/build.make CMakeFiles/cutefish-terminal.dir/src/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-terminal.dir/build.make CMakeFiles/matsya-terminal.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 # Help Target
@@ -414,17 +414,17 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-terminal_autogen"
-	@echo "... cutefishqmltermwidget_autogen"
+	@echo "... matsya-terminal_autogen"
+	@echo "... matsyaqmltermwidget_autogen"
 	@echo "... translations"
-	@echo "... cutefish-terminal"
-	@echo "... cutefishqmltermwidget"
-	@echo "... cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.o"
-	@echo "... cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.i"
-	@echo "... cutefish-terminal_autogen/UVLADIE3JM/qrc_resources.s"
-	@echo "... cutefish-terminal_autogen/mocs_compilation.o"
-	@echo "... cutefish-terminal_autogen/mocs_compilation.i"
-	@echo "... cutefish-terminal_autogen/mocs_compilation.s"
+	@echo "... matsya-terminal"
+	@echo "... matsyaqmltermwidget"
+	@echo "... matsya-terminal_autogen/UVLADIE3JM/qrc_resources.o"
+	@echo "... matsya-terminal_autogen/UVLADIE3JM/qrc_resources.i"
+	@echo "... matsya-terminal_autogen/UVLADIE3JM/qrc_resources.s"
+	@echo "... matsya-terminal_autogen/mocs_compilation.o"
+	@echo "... matsya-terminal_autogen/mocs_compilation.i"
+	@echo "... matsya-terminal_autogen/mocs_compilation.s"
 	@echo "... src/fonts.o"
 	@echo "... src/fonts.i"
 	@echo "... src/fonts.s"

@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/terminal
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/terminal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/terminal/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/terminal/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/terminal/build/CMakeFiles /home/tokyo/clone/cuteclone/terminal/build/qmltermwidget//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/terminal/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/terminal/build/CMakeFiles /home/tokyo/Documents/GitHub/terminal/build/qmltermwidget//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/terminal/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/clean
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,75 +162,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/preinstall
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/preinstall
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/rule:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/rule
-.PHONY : qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/rule
+qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/rule:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/rule
+.PHONY : qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/rule
 
 # Convenience name for target.
-cutefishqmltermwidget: qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/rule
+matsyaqmltermwidget: qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/rule
 
-.PHONY : cutefishqmltermwidget
+.PHONY : matsyaqmltermwidget
 
 # fast build rule for target.
-cutefishqmltermwidget/fast:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build
-.PHONY : cutefishqmltermwidget/fast
+matsyaqmltermwidget/fast:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build
+.PHONY : matsyaqmltermwidget/fast
 
 # Convenience name for target.
-qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/rule:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/rule
-.PHONY : qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/rule
+qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/rule
+.PHONY : qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/rule
 
 # Convenience name for target.
-cutefishqmltermwidget_autogen: qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/rule
+matsyaqmltermwidget_autogen: qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/rule
 
-.PHONY : cutefishqmltermwidget_autogen
+.PHONY : matsyaqmltermwidget_autogen
 
 # fast build rule for target.
-cutefishqmltermwidget_autogen/fast:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget_autogen.dir/build
-.PHONY : cutefishqmltermwidget_autogen/fast
-
-cutefishqmltermwidget_autogen/mocs_compilation.o: cutefishqmltermwidget_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefishqmltermwidget_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/cutefishqmltermwidget_autogen/mocs_compilation.cpp.o
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.cpp.o
-
-cutefishqmltermwidget_autogen/mocs_compilation.i: cutefishqmltermwidget_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefishqmltermwidget_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/cutefishqmltermwidget_autogen/mocs_compilation.cpp.i
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.cpp.i
-
-cutefishqmltermwidget_autogen/mocs_compilation.s: cutefishqmltermwidget_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefishqmltermwidget_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/cutefishqmltermwidget_autogen/mocs_compilation.cpp.s
-.PHONY : cutefishqmltermwidget_autogen/mocs_compilation.cpp.s
+matsyaqmltermwidget_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/build
+.PHONY : matsyaqmltermwidget_autogen/fast
 
 lib/BlockArray.o: lib/BlockArray.cpp.o
 
@@ -238,7 +211,7 @@ lib/BlockArray.o: lib/BlockArray.cpp.o
 
 # target to build an object file
 lib/BlockArray.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/BlockArray.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/BlockArray.cpp.o
 .PHONY : lib/BlockArray.cpp.o
 
 lib/BlockArray.i: lib/BlockArray.cpp.i
@@ -247,7 +220,7 @@ lib/BlockArray.i: lib/BlockArray.cpp.i
 
 # target to preprocess a source file
 lib/BlockArray.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/BlockArray.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/BlockArray.cpp.i
 .PHONY : lib/BlockArray.cpp.i
 
 lib/BlockArray.s: lib/BlockArray.cpp.s
@@ -256,7 +229,7 @@ lib/BlockArray.s: lib/BlockArray.cpp.s
 
 # target to generate assembly for a file
 lib/BlockArray.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/BlockArray.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/BlockArray.cpp.s
 .PHONY : lib/BlockArray.cpp.s
 
 lib/ColorScheme.o: lib/ColorScheme.cpp.o
@@ -265,7 +238,7 @@ lib/ColorScheme.o: lib/ColorScheme.cpp.o
 
 # target to build an object file
 lib/ColorScheme.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ColorScheme.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ColorScheme.cpp.o
 .PHONY : lib/ColorScheme.cpp.o
 
 lib/ColorScheme.i: lib/ColorScheme.cpp.i
@@ -274,7 +247,7 @@ lib/ColorScheme.i: lib/ColorScheme.cpp.i
 
 # target to preprocess a source file
 lib/ColorScheme.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ColorScheme.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ColorScheme.cpp.i
 .PHONY : lib/ColorScheme.cpp.i
 
 lib/ColorScheme.s: lib/ColorScheme.cpp.s
@@ -283,7 +256,7 @@ lib/ColorScheme.s: lib/ColorScheme.cpp.s
 
 # target to generate assembly for a file
 lib/ColorScheme.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ColorScheme.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ColorScheme.cpp.s
 .PHONY : lib/ColorScheme.cpp.s
 
 lib/Emulation.o: lib/Emulation.cpp.o
@@ -292,7 +265,7 @@ lib/Emulation.o: lib/Emulation.cpp.o
 
 # target to build an object file
 lib/Emulation.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Emulation.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Emulation.cpp.o
 .PHONY : lib/Emulation.cpp.o
 
 lib/Emulation.i: lib/Emulation.cpp.i
@@ -301,7 +274,7 @@ lib/Emulation.i: lib/Emulation.cpp.i
 
 # target to preprocess a source file
 lib/Emulation.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Emulation.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Emulation.cpp.i
 .PHONY : lib/Emulation.cpp.i
 
 lib/Emulation.s: lib/Emulation.cpp.s
@@ -310,7 +283,7 @@ lib/Emulation.s: lib/Emulation.cpp.s
 
 # target to generate assembly for a file
 lib/Emulation.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Emulation.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Emulation.cpp.s
 .PHONY : lib/Emulation.cpp.s
 
 lib/Filter.o: lib/Filter.cpp.o
@@ -319,7 +292,7 @@ lib/Filter.o: lib/Filter.cpp.o
 
 # target to build an object file
 lib/Filter.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Filter.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Filter.cpp.o
 .PHONY : lib/Filter.cpp.o
 
 lib/Filter.i: lib/Filter.cpp.i
@@ -328,7 +301,7 @@ lib/Filter.i: lib/Filter.cpp.i
 
 # target to preprocess a source file
 lib/Filter.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Filter.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Filter.cpp.i
 .PHONY : lib/Filter.cpp.i
 
 lib/Filter.s: lib/Filter.cpp.s
@@ -337,7 +310,7 @@ lib/Filter.s: lib/Filter.cpp.s
 
 # target to generate assembly for a file
 lib/Filter.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Filter.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Filter.cpp.s
 .PHONY : lib/Filter.cpp.s
 
 lib/History.o: lib/History.cpp.o
@@ -346,7 +319,7 @@ lib/History.o: lib/History.cpp.o
 
 # target to build an object file
 lib/History.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/History.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/History.cpp.o
 .PHONY : lib/History.cpp.o
 
 lib/History.i: lib/History.cpp.i
@@ -355,7 +328,7 @@ lib/History.i: lib/History.cpp.i
 
 # target to preprocess a source file
 lib/History.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/History.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/History.cpp.i
 .PHONY : lib/History.cpp.i
 
 lib/History.s: lib/History.cpp.s
@@ -364,7 +337,7 @@ lib/History.s: lib/History.cpp.s
 
 # target to generate assembly for a file
 lib/History.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/History.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/History.cpp.s
 .PHONY : lib/History.cpp.s
 
 lib/HistorySearch.o: lib/HistorySearch.cpp.o
@@ -373,7 +346,7 @@ lib/HistorySearch.o: lib/HistorySearch.cpp.o
 
 # target to build an object file
 lib/HistorySearch.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/HistorySearch.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/HistorySearch.cpp.o
 .PHONY : lib/HistorySearch.cpp.o
 
 lib/HistorySearch.i: lib/HistorySearch.cpp.i
@@ -382,7 +355,7 @@ lib/HistorySearch.i: lib/HistorySearch.cpp.i
 
 # target to preprocess a source file
 lib/HistorySearch.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/HistorySearch.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/HistorySearch.cpp.i
 .PHONY : lib/HistorySearch.cpp.i
 
 lib/HistorySearch.s: lib/HistorySearch.cpp.s
@@ -391,7 +364,7 @@ lib/HistorySearch.s: lib/HistorySearch.cpp.s
 
 # target to generate assembly for a file
 lib/HistorySearch.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/HistorySearch.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/HistorySearch.cpp.s
 .PHONY : lib/HistorySearch.cpp.s
 
 lib/KeyboardTranslator.o: lib/KeyboardTranslator.cpp.o
@@ -400,7 +373,7 @@ lib/KeyboardTranslator.o: lib/KeyboardTranslator.cpp.o
 
 # target to build an object file
 lib/KeyboardTranslator.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/KeyboardTranslator.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/KeyboardTranslator.cpp.o
 .PHONY : lib/KeyboardTranslator.cpp.o
 
 lib/KeyboardTranslator.i: lib/KeyboardTranslator.cpp.i
@@ -409,7 +382,7 @@ lib/KeyboardTranslator.i: lib/KeyboardTranslator.cpp.i
 
 # target to preprocess a source file
 lib/KeyboardTranslator.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/KeyboardTranslator.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/KeyboardTranslator.cpp.i
 .PHONY : lib/KeyboardTranslator.cpp.i
 
 lib/KeyboardTranslator.s: lib/KeyboardTranslator.cpp.s
@@ -418,7 +391,7 @@ lib/KeyboardTranslator.s: lib/KeyboardTranslator.cpp.s
 
 # target to generate assembly for a file
 lib/KeyboardTranslator.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/KeyboardTranslator.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/KeyboardTranslator.cpp.s
 .PHONY : lib/KeyboardTranslator.cpp.s
 
 lib/ProcessInfo.o: lib/ProcessInfo.cpp.o
@@ -427,7 +400,7 @@ lib/ProcessInfo.o: lib/ProcessInfo.cpp.o
 
 # target to build an object file
 lib/ProcessInfo.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ProcessInfo.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ProcessInfo.cpp.o
 .PHONY : lib/ProcessInfo.cpp.o
 
 lib/ProcessInfo.i: lib/ProcessInfo.cpp.i
@@ -436,7 +409,7 @@ lib/ProcessInfo.i: lib/ProcessInfo.cpp.i
 
 # target to preprocess a source file
 lib/ProcessInfo.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ProcessInfo.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ProcessInfo.cpp.i
 .PHONY : lib/ProcessInfo.cpp.i
 
 lib/ProcessInfo.s: lib/ProcessInfo.cpp.s
@@ -445,7 +418,7 @@ lib/ProcessInfo.s: lib/ProcessInfo.cpp.s
 
 # target to generate assembly for a file
 lib/ProcessInfo.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ProcessInfo.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ProcessInfo.cpp.s
 .PHONY : lib/ProcessInfo.cpp.s
 
 lib/Pty.o: lib/Pty.cpp.o
@@ -454,7 +427,7 @@ lib/Pty.o: lib/Pty.cpp.o
 
 # target to build an object file
 lib/Pty.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Pty.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Pty.cpp.o
 .PHONY : lib/Pty.cpp.o
 
 lib/Pty.i: lib/Pty.cpp.i
@@ -463,7 +436,7 @@ lib/Pty.i: lib/Pty.cpp.i
 
 # target to preprocess a source file
 lib/Pty.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Pty.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Pty.cpp.i
 .PHONY : lib/Pty.cpp.i
 
 lib/Pty.s: lib/Pty.cpp.s
@@ -472,7 +445,7 @@ lib/Pty.s: lib/Pty.cpp.s
 
 # target to generate assembly for a file
 lib/Pty.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Pty.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Pty.cpp.s
 .PHONY : lib/Pty.cpp.s
 
 lib/Screen.o: lib/Screen.cpp.o
@@ -481,7 +454,7 @@ lib/Screen.o: lib/Screen.cpp.o
 
 # target to build an object file
 lib/Screen.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Screen.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Screen.cpp.o
 .PHONY : lib/Screen.cpp.o
 
 lib/Screen.i: lib/Screen.cpp.i
@@ -490,7 +463,7 @@ lib/Screen.i: lib/Screen.cpp.i
 
 # target to preprocess a source file
 lib/Screen.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Screen.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Screen.cpp.i
 .PHONY : lib/Screen.cpp.i
 
 lib/Screen.s: lib/Screen.cpp.s
@@ -499,7 +472,7 @@ lib/Screen.s: lib/Screen.cpp.s
 
 # target to generate assembly for a file
 lib/Screen.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Screen.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Screen.cpp.s
 .PHONY : lib/Screen.cpp.s
 
 lib/ScreenWindow.o: lib/ScreenWindow.cpp.o
@@ -508,7 +481,7 @@ lib/ScreenWindow.o: lib/ScreenWindow.cpp.o
 
 # target to build an object file
 lib/ScreenWindow.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ScreenWindow.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ScreenWindow.cpp.o
 .PHONY : lib/ScreenWindow.cpp.o
 
 lib/ScreenWindow.i: lib/ScreenWindow.cpp.i
@@ -517,7 +490,7 @@ lib/ScreenWindow.i: lib/ScreenWindow.cpp.i
 
 # target to preprocess a source file
 lib/ScreenWindow.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ScreenWindow.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ScreenWindow.cpp.i
 .PHONY : lib/ScreenWindow.cpp.i
 
 lib/ScreenWindow.s: lib/ScreenWindow.cpp.s
@@ -526,7 +499,7 @@ lib/ScreenWindow.s: lib/ScreenWindow.cpp.s
 
 # target to generate assembly for a file
 lib/ScreenWindow.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ScreenWindow.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ScreenWindow.cpp.s
 .PHONY : lib/ScreenWindow.cpp.s
 
 lib/Session.o: lib/Session.cpp.o
@@ -535,7 +508,7 @@ lib/Session.o: lib/Session.cpp.o
 
 # target to build an object file
 lib/Session.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Session.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Session.cpp.o
 .PHONY : lib/Session.cpp.o
 
 lib/Session.i: lib/Session.cpp.i
@@ -544,7 +517,7 @@ lib/Session.i: lib/Session.cpp.i
 
 # target to preprocess a source file
 lib/Session.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Session.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Session.cpp.i
 .PHONY : lib/Session.cpp.i
 
 lib/Session.s: lib/Session.cpp.s
@@ -553,7 +526,7 @@ lib/Session.s: lib/Session.cpp.s
 
 # target to generate assembly for a file
 lib/Session.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Session.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Session.cpp.s
 .PHONY : lib/Session.cpp.s
 
 lib/ShellCommand.o: lib/ShellCommand.cpp.o
@@ -562,7 +535,7 @@ lib/ShellCommand.o: lib/ShellCommand.cpp.o
 
 # target to build an object file
 lib/ShellCommand.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ShellCommand.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ShellCommand.cpp.o
 .PHONY : lib/ShellCommand.cpp.o
 
 lib/ShellCommand.i: lib/ShellCommand.cpp.i
@@ -571,7 +544,7 @@ lib/ShellCommand.i: lib/ShellCommand.cpp.i
 
 # target to preprocess a source file
 lib/ShellCommand.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ShellCommand.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ShellCommand.cpp.i
 .PHONY : lib/ShellCommand.cpp.i
 
 lib/ShellCommand.s: lib/ShellCommand.cpp.s
@@ -580,7 +553,7 @@ lib/ShellCommand.s: lib/ShellCommand.cpp.s
 
 # target to generate assembly for a file
 lib/ShellCommand.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/ShellCommand.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/ShellCommand.cpp.s
 .PHONY : lib/ShellCommand.cpp.s
 
 lib/TerminalCharacterDecoder.o: lib/TerminalCharacterDecoder.cpp.o
@@ -589,7 +562,7 @@ lib/TerminalCharacterDecoder.o: lib/TerminalCharacterDecoder.cpp.o
 
 # target to build an object file
 lib/TerminalCharacterDecoder.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.o
 .PHONY : lib/TerminalCharacterDecoder.cpp.o
 
 lib/TerminalCharacterDecoder.i: lib/TerminalCharacterDecoder.cpp.i
@@ -598,7 +571,7 @@ lib/TerminalCharacterDecoder.i: lib/TerminalCharacterDecoder.cpp.i
 
 # target to preprocess a source file
 lib/TerminalCharacterDecoder.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.i
 .PHONY : lib/TerminalCharacterDecoder.cpp.i
 
 lib/TerminalCharacterDecoder.s: lib/TerminalCharacterDecoder.cpp.s
@@ -607,7 +580,7 @@ lib/TerminalCharacterDecoder.s: lib/TerminalCharacterDecoder.cpp.s
 
 # target to generate assembly for a file
 lib/TerminalCharacterDecoder.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalCharacterDecoder.cpp.s
 .PHONY : lib/TerminalCharacterDecoder.cpp.s
 
 lib/TerminalDisplay.o: lib/TerminalDisplay.cpp.o
@@ -616,7 +589,7 @@ lib/TerminalDisplay.o: lib/TerminalDisplay.cpp.o
 
 # target to build an object file
 lib/TerminalDisplay.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalDisplay.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalDisplay.cpp.o
 .PHONY : lib/TerminalDisplay.cpp.o
 
 lib/TerminalDisplay.i: lib/TerminalDisplay.cpp.i
@@ -625,7 +598,7 @@ lib/TerminalDisplay.i: lib/TerminalDisplay.cpp.i
 
 # target to preprocess a source file
 lib/TerminalDisplay.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalDisplay.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalDisplay.cpp.i
 .PHONY : lib/TerminalDisplay.cpp.i
 
 lib/TerminalDisplay.s: lib/TerminalDisplay.cpp.s
@@ -634,7 +607,7 @@ lib/TerminalDisplay.s: lib/TerminalDisplay.cpp.s
 
 # target to generate assembly for a file
 lib/TerminalDisplay.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/TerminalDisplay.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/TerminalDisplay.cpp.s
 .PHONY : lib/TerminalDisplay.cpp.s
 
 lib/Vt102Emulation.o: lib/Vt102Emulation.cpp.o
@@ -643,7 +616,7 @@ lib/Vt102Emulation.o: lib/Vt102Emulation.cpp.o
 
 # target to build an object file
 lib/Vt102Emulation.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Vt102Emulation.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Vt102Emulation.cpp.o
 .PHONY : lib/Vt102Emulation.cpp.o
 
 lib/Vt102Emulation.i: lib/Vt102Emulation.cpp.i
@@ -652,7 +625,7 @@ lib/Vt102Emulation.i: lib/Vt102Emulation.cpp.i
 
 # target to preprocess a source file
 lib/Vt102Emulation.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Vt102Emulation.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Vt102Emulation.cpp.i
 .PHONY : lib/Vt102Emulation.cpp.i
 
 lib/Vt102Emulation.s: lib/Vt102Emulation.cpp.s
@@ -661,7 +634,7 @@ lib/Vt102Emulation.s: lib/Vt102Emulation.cpp.s
 
 # target to generate assembly for a file
 lib/Vt102Emulation.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/Vt102Emulation.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/Vt102Emulation.cpp.s
 .PHONY : lib/Vt102Emulation.cpp.s
 
 lib/konsole_wcwidth.o: lib/konsole_wcwidth.cpp.o
@@ -670,7 +643,7 @@ lib/konsole_wcwidth.o: lib/konsole_wcwidth.cpp.o
 
 # target to build an object file
 lib/konsole_wcwidth.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/konsole_wcwidth.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/konsole_wcwidth.cpp.o
 .PHONY : lib/konsole_wcwidth.cpp.o
 
 lib/konsole_wcwidth.i: lib/konsole_wcwidth.cpp.i
@@ -679,7 +652,7 @@ lib/konsole_wcwidth.i: lib/konsole_wcwidth.cpp.i
 
 # target to preprocess a source file
 lib/konsole_wcwidth.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/konsole_wcwidth.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/konsole_wcwidth.cpp.i
 .PHONY : lib/konsole_wcwidth.cpp.i
 
 lib/konsole_wcwidth.s: lib/konsole_wcwidth.cpp.s
@@ -688,7 +661,7 @@ lib/konsole_wcwidth.s: lib/konsole_wcwidth.cpp.s
 
 # target to generate assembly for a file
 lib/konsole_wcwidth.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/konsole_wcwidth.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/konsole_wcwidth.cpp.s
 .PHONY : lib/konsole_wcwidth.cpp.s
 
 lib/kprocess.o: lib/kprocess.cpp.o
@@ -697,7 +670,7 @@ lib/kprocess.o: lib/kprocess.cpp.o
 
 # target to build an object file
 lib/kprocess.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kprocess.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kprocess.cpp.o
 .PHONY : lib/kprocess.cpp.o
 
 lib/kprocess.i: lib/kprocess.cpp.i
@@ -706,7 +679,7 @@ lib/kprocess.i: lib/kprocess.cpp.i
 
 # target to preprocess a source file
 lib/kprocess.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kprocess.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kprocess.cpp.i
 .PHONY : lib/kprocess.cpp.i
 
 lib/kprocess.s: lib/kprocess.cpp.s
@@ -715,7 +688,7 @@ lib/kprocess.s: lib/kprocess.cpp.s
 
 # target to generate assembly for a file
 lib/kprocess.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kprocess.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kprocess.cpp.s
 .PHONY : lib/kprocess.cpp.s
 
 lib/kpty.o: lib/kpty.cpp.o
@@ -724,7 +697,7 @@ lib/kpty.o: lib/kpty.cpp.o
 
 # target to build an object file
 lib/kpty.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kpty.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kpty.cpp.o
 .PHONY : lib/kpty.cpp.o
 
 lib/kpty.i: lib/kpty.cpp.i
@@ -733,7 +706,7 @@ lib/kpty.i: lib/kpty.cpp.i
 
 # target to preprocess a source file
 lib/kpty.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kpty.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kpty.cpp.i
 .PHONY : lib/kpty.cpp.i
 
 lib/kpty.s: lib/kpty.cpp.s
@@ -742,7 +715,7 @@ lib/kpty.s: lib/kpty.cpp.s
 
 # target to generate assembly for a file
 lib/kpty.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kpty.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kpty.cpp.s
 .PHONY : lib/kpty.cpp.s
 
 lib/kptydevice.o: lib/kptydevice.cpp.o
@@ -751,7 +724,7 @@ lib/kptydevice.o: lib/kptydevice.cpp.o
 
 # target to build an object file
 lib/kptydevice.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptydevice.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptydevice.cpp.o
 .PHONY : lib/kptydevice.cpp.o
 
 lib/kptydevice.i: lib/kptydevice.cpp.i
@@ -760,7 +733,7 @@ lib/kptydevice.i: lib/kptydevice.cpp.i
 
 # target to preprocess a source file
 lib/kptydevice.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptydevice.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptydevice.cpp.i
 .PHONY : lib/kptydevice.cpp.i
 
 lib/kptydevice.s: lib/kptydevice.cpp.s
@@ -769,7 +742,7 @@ lib/kptydevice.s: lib/kptydevice.cpp.s
 
 # target to generate assembly for a file
 lib/kptydevice.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptydevice.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptydevice.cpp.s
 .PHONY : lib/kptydevice.cpp.s
 
 lib/kptyprocess.o: lib/kptyprocess.cpp.o
@@ -778,7 +751,7 @@ lib/kptyprocess.o: lib/kptyprocess.cpp.o
 
 # target to build an object file
 lib/kptyprocess.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptyprocess.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptyprocess.cpp.o
 .PHONY : lib/kptyprocess.cpp.o
 
 lib/kptyprocess.i: lib/kptyprocess.cpp.i
@@ -787,7 +760,7 @@ lib/kptyprocess.i: lib/kptyprocess.cpp.i
 
 # target to preprocess a source file
 lib/kptyprocess.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptyprocess.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptyprocess.cpp.i
 .PHONY : lib/kptyprocess.cpp.i
 
 lib/kptyprocess.s: lib/kptyprocess.cpp.s
@@ -796,7 +769,7 @@ lib/kptyprocess.s: lib/kptyprocess.cpp.s
 
 # target to generate assembly for a file
 lib/kptyprocess.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/kptyprocess.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/kptyprocess.cpp.s
 .PHONY : lib/kptyprocess.cpp.s
 
 lib/tools.o: lib/tools.cpp.o
@@ -805,7 +778,7 @@ lib/tools.o: lib/tools.cpp.o
 
 # target to build an object file
 lib/tools.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/tools.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/tools.cpp.o
 .PHONY : lib/tools.cpp.o
 
 lib/tools.i: lib/tools.cpp.i
@@ -814,7 +787,7 @@ lib/tools.i: lib/tools.cpp.i
 
 # target to preprocess a source file
 lib/tools.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/tools.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/tools.cpp.i
 .PHONY : lib/tools.cpp.i
 
 lib/tools.s: lib/tools.cpp.s
@@ -823,8 +796,35 @@ lib/tools.s: lib/tools.cpp.s
 
 # target to generate assembly for a file
 lib/tools.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/lib/tools.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/lib/tools.cpp.s
 .PHONY : lib/tools.cpp.s
+
+matsyaqmltermwidget_autogen/mocs_compilation.o: matsyaqmltermwidget_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.o
+
+# target to build an object file
+matsyaqmltermwidget_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/matsyaqmltermwidget_autogen/mocs_compilation.cpp.o
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.cpp.o
+
+matsyaqmltermwidget_autogen/mocs_compilation.i: matsyaqmltermwidget_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsyaqmltermwidget_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/matsyaqmltermwidget_autogen/mocs_compilation.cpp.i
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.cpp.i
+
+matsyaqmltermwidget_autogen/mocs_compilation.s: matsyaqmltermwidget_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsyaqmltermwidget_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/matsyaqmltermwidget_autogen/mocs_compilation.cpp.s
+.PHONY : matsyaqmltermwidget_autogen/mocs_compilation.cpp.s
 
 src/ksession.o: src/ksession.cpp.o
 
@@ -832,7 +832,7 @@ src/ksession.o: src/ksession.cpp.o
 
 # target to build an object file
 src/ksession.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/ksession.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/ksession.cpp.o
 .PHONY : src/ksession.cpp.o
 
 src/ksession.i: src/ksession.cpp.i
@@ -841,7 +841,7 @@ src/ksession.i: src/ksession.cpp.i
 
 # target to preprocess a source file
 src/ksession.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/ksession.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/ksession.cpp.i
 .PHONY : src/ksession.cpp.i
 
 src/ksession.s: src/ksession.cpp.s
@@ -850,7 +850,7 @@ src/ksession.s: src/ksession.cpp.s
 
 # target to generate assembly for a file
 src/ksession.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/ksession.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/ksession.cpp.s
 .PHONY : src/ksession.cpp.s
 
 src/qmltermwidget_plugin.o: src/qmltermwidget_plugin.cpp.o
@@ -859,7 +859,7 @@ src/qmltermwidget_plugin.o: src/qmltermwidget_plugin.cpp.o
 
 # target to build an object file
 src/qmltermwidget_plugin.cpp.o:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/qmltermwidget_plugin.cpp.o
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/qmltermwidget_plugin.cpp.o
 .PHONY : src/qmltermwidget_plugin.cpp.o
 
 src/qmltermwidget_plugin.i: src/qmltermwidget_plugin.cpp.i
@@ -868,7 +868,7 @@ src/qmltermwidget_plugin.i: src/qmltermwidget_plugin.cpp.i
 
 # target to preprocess a source file
 src/qmltermwidget_plugin.cpp.i:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/qmltermwidget_plugin.cpp.i
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/qmltermwidget_plugin.cpp.i
 .PHONY : src/qmltermwidget_plugin.cpp.i
 
 src/qmltermwidget_plugin.s: src/qmltermwidget_plugin.cpp.s
@@ -877,7 +877,7 @@ src/qmltermwidget_plugin.s: src/qmltermwidget_plugin.cpp.s
 
 # target to generate assembly for a file
 src/qmltermwidget_plugin.cpp.s:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/cutefishqmltermwidget.dir/src/qmltermwidget_plugin.cpp.s
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(MAKE) $(MAKESILENT) -f qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/build.make qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir/src/qmltermwidget_plugin.cpp.s
 .PHONY : src/qmltermwidget_plugin.cpp.s
 
 # Help Target
@@ -892,11 +892,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefishqmltermwidget_autogen"
-	@echo "... cutefishqmltermwidget"
-	@echo "... cutefishqmltermwidget_autogen/mocs_compilation.o"
-	@echo "... cutefishqmltermwidget_autogen/mocs_compilation.i"
-	@echo "... cutefishqmltermwidget_autogen/mocs_compilation.s"
+	@echo "... matsyaqmltermwidget_autogen"
+	@echo "... matsyaqmltermwidget"
 	@echo "... lib/BlockArray.o"
 	@echo "... lib/BlockArray.i"
 	@echo "... lib/BlockArray.s"
@@ -963,6 +960,9 @@ help:
 	@echo "... lib/tools.o"
 	@echo "... lib/tools.i"
 	@echo "... lib/tools.s"
+	@echo "... matsyaqmltermwidget_autogen/mocs_compilation.o"
+	@echo "... matsyaqmltermwidget_autogen/mocs_compilation.i"
+	@echo "... matsyaqmltermwidget_autogen/mocs_compilation.s"
 	@echo "... src/ksession.o"
 	@echo "... src/ksession.i"
 	@echo "... src/ksession.s"
@@ -980,6 +980,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

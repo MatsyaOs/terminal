@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/terminal
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/terminal
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/terminal/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/terminal/build
 
 # Utility rule file for translations.
 
@@ -73,212 +73,212 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/terminal/build
 include CMakeFiles/translations.dir/progress.make
 
 ../translations/ar_AA.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../translations/ar_AA.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ar_AA.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../translations/ar_AA.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ar_AA.ts
 
 ../translations/az_AZ.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../translations/az_AZ.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/az_AZ.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../translations/az_AZ.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/az_AZ.ts
 
 ../translations/be_BY.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../translations/be_BY.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/be_BY.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../translations/be_BY.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/be_BY.ts
 
 ../translations/be_Latn.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../translations/be_Latn.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/be_Latn.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../translations/be_Latn.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/be_Latn.ts
 
 ../translations/bg_BG.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../translations/bg_BG.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/bg_BG.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../translations/bg_BG.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/bg_BG.ts
 
 ../translations/bn_BD.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../translations/bn_BD.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/bn_BD.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../translations/bn_BD.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/bn_BD.ts
 
 ../translations/bs_BA.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../translations/bs_BA.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/bs_BA.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../translations/bs_BA.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/bs_BA.ts
 
 ../translations/cs_CZ.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../translations/cs_CZ.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/cs_CZ.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../translations/cs_CZ.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/cs_CZ.ts
 
 ../translations/da_DK.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../translations/da_DK.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/da_DK.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../translations/da_DK.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/da_DK.ts
 
 ../translations/de_DE.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../translations/de_DE.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/de_DE.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../translations/de_DE.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/de_DE.ts
 
 ../translations/en_US.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../translations/en_US.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/en_US.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../translations/en_US.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/en_US.ts
 
 ../translations/eo_XX.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../translations/eo_XX.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/eo_XX.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../translations/eo_XX.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/eo_XX.ts
 
 ../translations/es_ES.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../translations/es_ES.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/es_ES.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../translations/es_ES.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/es_ES.ts
 
 ../translations/es_MX.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../translations/es_MX.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/es_MX.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../translations/es_MX.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/es_MX.ts
 
 ../translations/fa_IR.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../translations/fa_IR.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/fa_IR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../translations/fa_IR.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/fa_IR.ts
 
 ../translations/fi_FI.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../translations/fi_FI.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/fi_FI.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../translations/fi_FI.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/fi_FI.ts
 
 ../translations/fr_FR.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../translations/fr_FR.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/fr_FR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../translations/fr_FR.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/fr_FR.ts
 
 ../translations/he_IL.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../translations/he_IL.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/he_IL.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../translations/he_IL.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/he_IL.ts
 
 ../translations/hi_IN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../translations/hi_IN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/hi_IN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../translations/hi_IN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/hi_IN.ts
 
 ../translations/hr_HR.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../translations/hr_HR.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/hr_HR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../translations/hr_HR.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/hr_HR.ts
 
 ../translations/hu_HU.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../translations/hu_HU.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/hu_HU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../translations/hu_HU.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/hu_HU.ts
 
 ../translations/id_ID.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../translations/id_ID.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/id_ID.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../translations/id_ID.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/id_ID.ts
 
 ../translations/ie.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../translations/ie.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ie.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../translations/ie.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ie.ts
 
 ../translations/it_IT.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../translations/it_IT.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/it_IT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../translations/it_IT.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/it_IT.ts
 
 ../translations/ja_JP.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../translations/ja_JP.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ja_JP.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../translations/ja_JP.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ja_JP.ts
 
 ../translations/lt_LT.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../translations/lt_LT.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/lt_LT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../translations/lt_LT.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/lt_LT.ts
 
 ../translations/lv_LV.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../translations/lv_LV.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/lv_LV.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../translations/lv_LV.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/lv_LV.ts
 
 ../translations/mg.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../translations/mg.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/mg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../translations/mg.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/mg.ts
 
 ../translations/ml_IN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../translations/ml_IN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ml_IN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../translations/ml_IN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ml_IN.ts
 
 ../translations/nb_NO.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../translations/nb_NO.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/nb_NO.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../translations/nb_NO.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/nb_NO.ts
 
 ../translations/ne_NP.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../translations/ne_NP.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ne_NP.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../translations/ne_NP.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ne_NP.ts
 
 ../translations/nl_NL.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ../translations/nl_NL.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/nl_NL.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ../translations/nl_NL.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/nl_NL.ts
 
 ../translations/pl_PL.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ../translations/pl_PL.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/pl_PL.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ../translations/pl_PL.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/pl_PL.ts
 
 ../translations/pt_BR.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ../translations/pt_BR.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/pt_BR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ../translations/pt_BR.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/pt_BR.ts
 
 ../translations/pt_PT.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ../translations/pt_PT.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/pt_PT.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ../translations/pt_PT.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/pt_PT.ts
 
 ../translations/ro_RO.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ../translations/ro_RO.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ro_RO.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ../translations/ro_RO.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ro_RO.ts
 
 ../translations/ru_RU.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ../translations/ru_RU.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ru_RU.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ../translations/ru_RU.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ru_RU.ts
 
 ../translations/si_LK.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ../translations/si_LK.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/si_LK.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ../translations/si_LK.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/si_LK.ts
 
 ../translations/sk_SK.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ../translations/sk_SK.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/sk_SK.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ../translations/sk_SK.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/sk_SK.ts
 
 ../translations/so.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ../translations/so.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/so.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ../translations/so.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/so.ts
 
 ../translations/sr_RS.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ../translations/sr_RS.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/sr_RS.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ../translations/sr_RS.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/sr_RS.ts
 
 ../translations/sv_SE.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ../translations/sv_SE.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/sv_SE.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ../translations/sv_SE.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/sv_SE.ts
 
 ../translations/sw.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ../translations/sw.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/sw.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ../translations/sw.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/sw.ts
 
 ../translations/ta_IN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ../translations/ta_IN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/ta_IN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ../translations/ta_IN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/ta_IN.ts
 
 ../translations/tr_TR.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ../translations/tr_TR.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/tr_TR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ../translations/tr_TR.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/tr_TR.ts
 
 ../translations/tzm.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ../translations/tzm.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/tzm.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ../translations/tzm.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/tzm.ts
 
 ../translations/uk_UA.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ../translations/uk_UA.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/uk_UA.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ../translations/uk_UA.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/uk_UA.ts
 
 ../translations/uz_UZ.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ../translations/uz_UZ.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/uz_UZ.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ../translations/uz_UZ.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/uz_UZ.ts
 
 ../translations/vi_VN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ../translations/vi_VN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/vi_VN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ../translations/vi_VN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/vi_VN.ts
 
 ../translations/zh_CN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ../translations/zh_CN.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ../translations/zh_CN.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/zh_CN.ts
 
 ../translations/zh_CN.ts.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ../translations/zh_CN.ts.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/zh_CN.ts.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ../translations/zh_CN.ts.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/zh_CN.ts.ts
 
 ../translations/zh_Hant.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ../translations/zh_Hant.ts"
-	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/cuteclone/terminal/translations/zh_Hant.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ../translations/zh_Hant.ts"
+	/usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/terminal/translations/zh_Hant.ts
 
 CMakeFiles/translations: ar_AA.qm
 CMakeFiles/translations: az_AZ.qm
@@ -335,212 +335,212 @@ CMakeFiles/translations: zh_Hant.qm
 
 
 ar_AA.qm: ../translations/ar_AA.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ar_AA.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ar_AA.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ar_AA.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ar_AA.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ar_AA.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ar_AA.qm
 
 az_AZ.qm: ../translations/az_AZ.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating az_AZ.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/az_AZ.ts -qm /home/tokyo/clone/cuteclone/terminal/build/az_AZ.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating az_AZ.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/az_AZ.ts -qm /home/tokyo/Documents/GitHub/terminal/build/az_AZ.qm
 
 be_BY.qm: ../translations/be_BY.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating be_BY.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/be_BY.ts -qm /home/tokyo/clone/cuteclone/terminal/build/be_BY.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating be_BY.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/be_BY.ts -qm /home/tokyo/Documents/GitHub/terminal/build/be_BY.qm
 
 be_Latn.qm: ../translations/be_Latn.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating be_Latn.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/be_Latn.ts -qm /home/tokyo/clone/cuteclone/terminal/build/be_Latn.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating be_Latn.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/be_Latn.ts -qm /home/tokyo/Documents/GitHub/terminal/build/be_Latn.qm
 
 bg_BG.qm: ../translations/bg_BG.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating bg_BG.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/bg_BG.ts -qm /home/tokyo/clone/cuteclone/terminal/build/bg_BG.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating bg_BG.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/bg_BG.ts -qm /home/tokyo/Documents/GitHub/terminal/build/bg_BG.qm
 
 bn_BD.qm: ../translations/bn_BD.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating bn_BD.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/bn_BD.ts -qm /home/tokyo/clone/cuteclone/terminal/build/bn_BD.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating bn_BD.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/bn_BD.ts -qm /home/tokyo/Documents/GitHub/terminal/build/bn_BD.qm
 
 bs_BA.qm: ../translations/bs_BA.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating bs_BA.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/bs_BA.ts -qm /home/tokyo/clone/cuteclone/terminal/build/bs_BA.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating bs_BA.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/bs_BA.ts -qm /home/tokyo/Documents/GitHub/terminal/build/bs_BA.qm
 
 cs_CZ.qm: ../translations/cs_CZ.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating cs_CZ.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/cs_CZ.ts -qm /home/tokyo/clone/cuteclone/terminal/build/cs_CZ.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating cs_CZ.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/cs_CZ.ts -qm /home/tokyo/Documents/GitHub/terminal/build/cs_CZ.qm
 
 da_DK.qm: ../translations/da_DK.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating da_DK.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/da_DK.ts -qm /home/tokyo/clone/cuteclone/terminal/build/da_DK.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating da_DK.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/da_DK.ts -qm /home/tokyo/Documents/GitHub/terminal/build/da_DK.qm
 
 de_DE.qm: ../translations/de_DE.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating de_DE.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/de_DE.ts -qm /home/tokyo/clone/cuteclone/terminal/build/de_DE.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating de_DE.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/de_DE.ts -qm /home/tokyo/Documents/GitHub/terminal/build/de_DE.qm
 
 en_US.qm: ../translations/en_US.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating en_US.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/en_US.ts -qm /home/tokyo/clone/cuteclone/terminal/build/en_US.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating en_US.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/en_US.ts -qm /home/tokyo/Documents/GitHub/terminal/build/en_US.qm
 
 eo_XX.qm: ../translations/eo_XX.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating eo_XX.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/eo_XX.ts -qm /home/tokyo/clone/cuteclone/terminal/build/eo_XX.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating eo_XX.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/eo_XX.ts -qm /home/tokyo/Documents/GitHub/terminal/build/eo_XX.qm
 
 es_ES.qm: ../translations/es_ES.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating es_ES.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/es_ES.ts -qm /home/tokyo/clone/cuteclone/terminal/build/es_ES.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating es_ES.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/es_ES.ts -qm /home/tokyo/Documents/GitHub/terminal/build/es_ES.qm
 
 es_MX.qm: ../translations/es_MX.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating es_MX.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/es_MX.ts -qm /home/tokyo/clone/cuteclone/terminal/build/es_MX.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating es_MX.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/es_MX.ts -qm /home/tokyo/Documents/GitHub/terminal/build/es_MX.qm
 
 fa_IR.qm: ../translations/fa_IR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating fa_IR.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/fa_IR.ts -qm /home/tokyo/clone/cuteclone/terminal/build/fa_IR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating fa_IR.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/fa_IR.ts -qm /home/tokyo/Documents/GitHub/terminal/build/fa_IR.qm
 
 fi_FI.qm: ../translations/fi_FI.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating fi_FI.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/fi_FI.ts -qm /home/tokyo/clone/cuteclone/terminal/build/fi_FI.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating fi_FI.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/fi_FI.ts -qm /home/tokyo/Documents/GitHub/terminal/build/fi_FI.qm
 
 fr_FR.qm: ../translations/fr_FR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating fr_FR.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/fr_FR.ts -qm /home/tokyo/clone/cuteclone/terminal/build/fr_FR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating fr_FR.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/fr_FR.ts -qm /home/tokyo/Documents/GitHub/terminal/build/fr_FR.qm
 
 he_IL.qm: ../translations/he_IL.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating he_IL.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/he_IL.ts -qm /home/tokyo/clone/cuteclone/terminal/build/he_IL.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating he_IL.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/he_IL.ts -qm /home/tokyo/Documents/GitHub/terminal/build/he_IL.qm
 
 hi_IN.qm: ../translations/hi_IN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating hi_IN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/hi_IN.ts -qm /home/tokyo/clone/cuteclone/terminal/build/hi_IN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating hi_IN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/hi_IN.ts -qm /home/tokyo/Documents/GitHub/terminal/build/hi_IN.qm
 
 hr_HR.qm: ../translations/hr_HR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating hr_HR.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/hr_HR.ts -qm /home/tokyo/clone/cuteclone/terminal/build/hr_HR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating hr_HR.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/hr_HR.ts -qm /home/tokyo/Documents/GitHub/terminal/build/hr_HR.qm
 
 hu_HU.qm: ../translations/hu_HU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating hu_HU.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/hu_HU.ts -qm /home/tokyo/clone/cuteclone/terminal/build/hu_HU.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating hu_HU.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/hu_HU.ts -qm /home/tokyo/Documents/GitHub/terminal/build/hu_HU.qm
 
 id_ID.qm: ../translations/id_ID.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating id_ID.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/id_ID.ts -qm /home/tokyo/clone/cuteclone/terminal/build/id_ID.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating id_ID.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/id_ID.ts -qm /home/tokyo/Documents/GitHub/terminal/build/id_ID.qm
 
 ie.qm: ../translations/ie.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating ie.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ie.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ie.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating ie.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ie.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ie.qm
 
 it_IT.qm: ../translations/it_IT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating it_IT.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/it_IT.ts -qm /home/tokyo/clone/cuteclone/terminal/build/it_IT.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating it_IT.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/it_IT.ts -qm /home/tokyo/Documents/GitHub/terminal/build/it_IT.qm
 
 ja_JP.qm: ../translations/ja_JP.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating ja_JP.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ja_JP.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ja_JP.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating ja_JP.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ja_JP.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ja_JP.qm
 
 lt_LT.qm: ../translations/lt_LT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating lt_LT.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/lt_LT.ts -qm /home/tokyo/clone/cuteclone/terminal/build/lt_LT.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating lt_LT.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/lt_LT.ts -qm /home/tokyo/Documents/GitHub/terminal/build/lt_LT.qm
 
 lv_LV.qm: ../translations/lv_LV.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating lv_LV.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/lv_LV.ts -qm /home/tokyo/clone/cuteclone/terminal/build/lv_LV.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating lv_LV.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/lv_LV.ts -qm /home/tokyo/Documents/GitHub/terminal/build/lv_LV.qm
 
 mg.qm: ../translations/mg.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating mg.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/mg.ts -qm /home/tokyo/clone/cuteclone/terminal/build/mg.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating mg.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/mg.ts -qm /home/tokyo/Documents/GitHub/terminal/build/mg.qm
 
 ml_IN.qm: ../translations/ml_IN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating ml_IN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ml_IN.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ml_IN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating ml_IN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ml_IN.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ml_IN.qm
 
 nb_NO.qm: ../translations/nb_NO.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating nb_NO.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/nb_NO.ts -qm /home/tokyo/clone/cuteclone/terminal/build/nb_NO.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating nb_NO.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/nb_NO.ts -qm /home/tokyo/Documents/GitHub/terminal/build/nb_NO.qm
 
 ne_NP.qm: ../translations/ne_NP.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating ne_NP.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ne_NP.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ne_NP.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating ne_NP.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ne_NP.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ne_NP.qm
 
 nl_NL.qm: ../translations/nl_NL.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating nl_NL.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/nl_NL.ts -qm /home/tokyo/clone/cuteclone/terminal/build/nl_NL.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating nl_NL.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/nl_NL.ts -qm /home/tokyo/Documents/GitHub/terminal/build/nl_NL.qm
 
 pl_PL.qm: ../translations/pl_PL.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating pl_PL.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/pl_PL.ts -qm /home/tokyo/clone/cuteclone/terminal/build/pl_PL.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating pl_PL.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/pl_PL.ts -qm /home/tokyo/Documents/GitHub/terminal/build/pl_PL.qm
 
 pt_BR.qm: ../translations/pt_BR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating pt_BR.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/pt_BR.ts -qm /home/tokyo/clone/cuteclone/terminal/build/pt_BR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating pt_BR.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/pt_BR.ts -qm /home/tokyo/Documents/GitHub/terminal/build/pt_BR.qm
 
 pt_PT.qm: ../translations/pt_PT.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating pt_PT.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/pt_PT.ts -qm /home/tokyo/clone/cuteclone/terminal/build/pt_PT.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating pt_PT.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/pt_PT.ts -qm /home/tokyo/Documents/GitHub/terminal/build/pt_PT.qm
 
 ro_RO.qm: ../translations/ro_RO.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating ro_RO.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ro_RO.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ro_RO.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating ro_RO.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ro_RO.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ro_RO.qm
 
 ru_RU.qm: ../translations/ru_RU.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating ru_RU.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ru_RU.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ru_RU.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating ru_RU.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ru_RU.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ru_RU.qm
 
 si_LK.qm: ../translations/si_LK.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating si_LK.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/si_LK.ts -qm /home/tokyo/clone/cuteclone/terminal/build/si_LK.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating si_LK.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/si_LK.ts -qm /home/tokyo/Documents/GitHub/terminal/build/si_LK.qm
 
 sk_SK.qm: ../translations/sk_SK.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating sk_SK.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/sk_SK.ts -qm /home/tokyo/clone/cuteclone/terminal/build/sk_SK.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating sk_SK.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/sk_SK.ts -qm /home/tokyo/Documents/GitHub/terminal/build/sk_SK.qm
 
 so.qm: ../translations/so.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating so.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/so.ts -qm /home/tokyo/clone/cuteclone/terminal/build/so.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating so.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/so.ts -qm /home/tokyo/Documents/GitHub/terminal/build/so.qm
 
 sr_RS.qm: ../translations/sr_RS.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating sr_RS.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/sr_RS.ts -qm /home/tokyo/clone/cuteclone/terminal/build/sr_RS.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating sr_RS.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/sr_RS.ts -qm /home/tokyo/Documents/GitHub/terminal/build/sr_RS.qm
 
 sv_SE.qm: ../translations/sv_SE.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating sv_SE.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/sv_SE.ts -qm /home/tokyo/clone/cuteclone/terminal/build/sv_SE.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating sv_SE.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/sv_SE.ts -qm /home/tokyo/Documents/GitHub/terminal/build/sv_SE.qm
 
 sw.qm: ../translations/sw.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating sw.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/sw.ts -qm /home/tokyo/clone/cuteclone/terminal/build/sw.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating sw.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/sw.ts -qm /home/tokyo/Documents/GitHub/terminal/build/sw.qm
 
 ta_IN.qm: ../translations/ta_IN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating ta_IN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/ta_IN.ts -qm /home/tokyo/clone/cuteclone/terminal/build/ta_IN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating ta_IN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/ta_IN.ts -qm /home/tokyo/Documents/GitHub/terminal/build/ta_IN.qm
 
 tr_TR.qm: ../translations/tr_TR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating tr_TR.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/tr_TR.ts -qm /home/tokyo/clone/cuteclone/terminal/build/tr_TR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating tr_TR.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/tr_TR.ts -qm /home/tokyo/Documents/GitHub/terminal/build/tr_TR.qm
 
 tzm.qm: ../translations/tzm.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating tzm.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/tzm.ts -qm /home/tokyo/clone/cuteclone/terminal/build/tzm.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating tzm.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/tzm.ts -qm /home/tokyo/Documents/GitHub/terminal/build/tzm.qm
 
 uk_UA.qm: ../translations/uk_UA.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating uk_UA.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/uk_UA.ts -qm /home/tokyo/clone/cuteclone/terminal/build/uk_UA.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating uk_UA.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/uk_UA.ts -qm /home/tokyo/Documents/GitHub/terminal/build/uk_UA.qm
 
 uz_UZ.qm: ../translations/uz_UZ.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating uz_UZ.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/uz_UZ.ts -qm /home/tokyo/clone/cuteclone/terminal/build/uz_UZ.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating uz_UZ.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/uz_UZ.ts -qm /home/tokyo/Documents/GitHub/terminal/build/uz_UZ.qm
 
 vi_VN.qm: ../translations/vi_VN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating vi_VN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/vi_VN.ts -qm /home/tokyo/clone/cuteclone/terminal/build/vi_VN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating vi_VN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/vi_VN.ts -qm /home/tokyo/Documents/GitHub/terminal/build/vi_VN.qm
 
 zh_CN.qm: ../translations/zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating zh_CN.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/zh_CN.ts -qm /home/tokyo/clone/cuteclone/terminal/build/zh_CN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating zh_CN.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/zh_CN.ts -qm /home/tokyo/Documents/GitHub/terminal/build/zh_CN.qm
 
 zh_CN.ts.qm: ../translations/zh_CN.ts.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating zh_CN.ts.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/zh_CN.ts.ts -qm /home/tokyo/clone/cuteclone/terminal/build/zh_CN.ts.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating zh_CN.ts.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/zh_CN.ts.ts -qm /home/tokyo/Documents/GitHub/terminal/build/zh_CN.ts.qm
 
 zh_Hant.qm: ../translations/zh_Hant.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/cuteclone/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating zh_Hant.qm"
-	/usr/lib/qt5/bin/lrelease /home/tokyo/clone/cuteclone/terminal/translations/zh_Hant.ts -qm /home/tokyo/clone/cuteclone/terminal/build/zh_Hant.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating zh_Hant.qm"
+	/usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/terminal/translations/zh_Hant.ts -qm /home/tokyo/Documents/GitHub/terminal/build/zh_Hant.qm
 
 translations: ../translations/ar_AA.ts
 translations: ../translations/az_AZ.ts
@@ -661,6 +661,6 @@ CMakeFiles/translations.dir/clean:
 .PHONY : CMakeFiles/translations.dir/clean
 
 CMakeFiles/translations.dir/depend:
-	cd /home/tokyo/clone/cuteclone/terminal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/terminal /home/tokyo/clone/cuteclone/terminal /home/tokyo/clone/cuteclone/terminal/build /home/tokyo/clone/cuteclone/terminal/build /home/tokyo/clone/cuteclone/terminal/build/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/terminal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/terminal /home/tokyo/Documents/GitHub/terminal /home/tokyo/Documents/GitHub/terminal/build /home/tokyo/Documents/GitHub/terminal/build /home/tokyo/Documents/GitHub/terminal/build/CMakeFiles/translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/translations.dir/depend
 
