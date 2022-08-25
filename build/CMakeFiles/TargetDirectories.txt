@@ -1,0 +1,17 @@
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/matsya-terminal.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/translations.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/install.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/install/strip.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/CMakeFiles/matsya-terminal_autogen.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/matsyaqmltermwidget.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/install.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/install/strip.dir
+/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir

@@ -1,0 +1,406 @@
+{
+	"BUILD_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/matsyaqmltermwidget_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/BlockArray.h",
+			"MU",
+			"ZJOKMXDKB7/moc_BlockArray.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Character.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Character.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/CharacterColor.h",
+			"MU",
+			"ZJOKMXDKB7/moc_CharacterColor.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ColorScheme.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ColorScheme.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ColorTables.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ColorTables.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/DefaultTranslatorText.h",
+			"MU",
+			"ZJOKMXDKB7/moc_DefaultTranslatorText.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Emulation.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Emulation.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ExtendedDefaultTranslator.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ExtendedDefaultTranslator.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Filter.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Filter.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/History.h",
+			"MU",
+			"ZJOKMXDKB7/moc_History.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/HistorySearch.h",
+			"MU",
+			"ZJOKMXDKB7/moc_HistorySearch.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/KeyboardTranslator.h",
+			"MU",
+			"ZJOKMXDKB7/moc_KeyboardTranslator.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/LineFont.h",
+			"MU",
+			"ZJOKMXDKB7/moc_LineFont.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ProcessInfo.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ProcessInfo.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Pty.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Pty.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Screen.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Screen.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ScreenWindow.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ScreenWindow.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Session.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Session.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ShellCommand.h",
+			"MU",
+			"ZJOKMXDKB7/moc_ShellCommand.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/TerminalCharacterDecoder.h",
+			"MU",
+			"ZJOKMXDKB7/moc_TerminalCharacterDecoder.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/TerminalDisplay.h",
+			"MU",
+			"ZJOKMXDKB7/moc_TerminalDisplay.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Vt102Emulation.h",
+			"MU",
+			"ZJOKMXDKB7/moc_Vt102Emulation.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/konsole_wcwidth.h",
+			"MU",
+			"ZJOKMXDKB7/moc_konsole_wcwidth.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kprocess.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kprocess.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kpty.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kpty.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kpty_p.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kpty_p.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kptydevice.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kptydevice.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kptyprocess.h",
+			"MU",
+			"ZJOKMXDKB7/moc_kptyprocess.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/mac-vkcode.h",
+			"MU",
+			"ZJOKMXDKB7/moc_mac-vkcode.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/tools.h",
+			"MU",
+			"ZJOKMXDKB7/moc_tools.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/src/ksession.h",
+			"MU",
+			"UVLADIE3JM/moc_ksession.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/src/qmltermwidget_plugin.h",
+			"MU",
+			"UVLADIE3JM/moc_qmltermwidget_plugin.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/matsyaqmltermwidget_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/matsyaqmltermwidget_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_POSIX_OPENPT",
+		"HAVE_SYS_TIME_H",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"matsyaqmltermwidget_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/src",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtQuick",
+		"/usr/include/qt/QtQmlModels",
+		"/usr/include/qt/QtQml",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/c++/12.1.0",
+		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/matsyaqmltermwidget_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/terminal/build/qmltermwidget/CMakeFiles/matsyaqmltermwidget_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/BlockArray.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ColorScheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Emulation.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Filter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/History.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/HistorySearch.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/KeyboardTranslator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ProcessInfo.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Pty.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Screen.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ScreenWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Session.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/ShellCommand.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/TerminalCharacterDecoder.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/TerminalDisplay.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/Vt102Emulation.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/konsole_wcwidth.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kprocess.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kpty.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kptydevice.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/kptyprocess.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/lib/tools.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/src/ksession.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/matsyaos-dependencies/terminal/qmltermwidget/src/qmltermwidget_plugin.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
